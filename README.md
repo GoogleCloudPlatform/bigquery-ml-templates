@@ -1,7 +1,7 @@
 # BQML Demo #
 
 ## Overview ##
-The repository contains BigQuery ML templates for commo marketing use cases. The templates use synthetic data, which was generated as per below use case and schema.
+The repository contains BigQuery ML templates for common marketing use cases. The templates use synthetic data, which was generated as per below use case and schema.
 * Customer is a B2B office supplier: OS Inc
 * OS Inc's customers are businesses whose information is stored in CRM in Account object
 * End users of these businesses login to OS's ecommerce website to order supplies; End user information (demographics, etc) is stored in the User object in CRM
