@@ -11,11 +11,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 SELECT
-  '3' AS Size,
-  a.loss AS Loss,
-  b.*
+  '5' AS Size,
+  a.Mean_Squared_Distance AS Mean_Squared_Distance
 FROM
-  ML.TRAINING_INFO (MODEL `caramel-howl-182418.CustomerSegmentation_Clustering_ModelComparison.model_5`) AS a,
-  ML.EVALUATE(MODEL `caramel-howl-182418.CustomerSegmentation_Clustering_ModelComparison.model_5`) AS b
-LIMIT
-  1
+  ML.EVALUATE(MODEL `caramel-howl-182418.CustomerSegmentation_Clustering_ModelComparison.model_5`) AS a;
