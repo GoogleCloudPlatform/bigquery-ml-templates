@@ -16,4 +16,4 @@ limitations under the License.
 SELECT
   ROUND(AVG(age)) AS average_age
 FROM
-  `caramel-howl-182418.LTV_Classification.Users
+  `caramel-howl-182418.LTV_Classification.Users`
