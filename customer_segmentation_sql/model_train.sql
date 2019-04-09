@@ -23,4 +23,4 @@ SELECT
   Lifetime_Value,
   Age
 FROM
-  `caramel-howl-182418.CustomerSegmentation_Clustering_ModelComparison.Dataset`;
+  `caramel-howl-182418.CustomerSegmentation_Clustering.Dataset`;
