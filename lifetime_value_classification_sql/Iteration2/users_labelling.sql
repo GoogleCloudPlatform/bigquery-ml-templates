@@ -15,7 +15,7 @@ limitations under the License.
 */
 SELECT
   * EXCEPT(LifeTime_Value),
-  Loyalty_Program/Age Calculated,
+  Loyalty_Program/Age Normalized_Loyalty_Program,
   CASE
     WHEN LifeTime_Value < Boundary1 THEN "Small"
     WHEN LifeTime_Value >= Boundary1
