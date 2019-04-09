@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 CREATE MODEL
-  `caramel-howl-182418.LTV_Classification.model_itertation_2`
+  `caramel-howl-182418.LTV_Classification.model_iteration_2`
 OPTIONS
   ( model_type='logistic_reg',
     auto_class_weights=TRUE,
@@ -25,7 +25,7 @@ SELECT
   UniqueScreenViews,
   Loyalty_Program,
   Age,
-  Calculated,
+  Normalized_Loyalty_Program,
   Country_Code,
   Class
 FROM
