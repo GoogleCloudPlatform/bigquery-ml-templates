@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 CREATE MODEL
-  `caramel-howl-182418.LTV_Classification.model_itertation_1`
+  `caramel-howl-182418.LTV_Classification.model_iteration_1`
 OPTIONS
   ( model_type='logistic_reg',
     auto_class_weights=TRUE,
