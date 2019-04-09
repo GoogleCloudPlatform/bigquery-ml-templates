@@ -16,4 +16,4 @@ limitations under the License.
 SELECT
   *
 FROM
-  ML.EVALUATE(MODEL LTV_Classification.model_iteration_2)
+  ML.EVALUATE(MODEL `caramel-howl-182418.LTV_Classification.model_iteration_2`)
