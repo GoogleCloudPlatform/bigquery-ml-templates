@@ -21,7 +21,7 @@ SELECT
   `caramel-howl-182418.LTV_Classification.Users_Calculated`.Age,
   `caramel-howl-182418.LTV_Classification.Users_Calculated`.Country_Code,
   `caramel-howl-182418.LTV_Classification.ScreenResolutionMode`.screenResolution,
-  `caramel-howl-182418.LTV_Classification.Users_Calculated`.Calculated,
+  `caramel-howl-182418.LTV_Classification.Users_Calculated`.Normalized_Loyalty_Program,
   `caramel-howl-182418.LTV_Classification.Users_Calculated`.Class
 FROM
   `caramel-howl-182418.LTV_Classification.Aggregated_GA360`,
