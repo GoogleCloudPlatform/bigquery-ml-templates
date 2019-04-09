@@ -16,4 +16,4 @@ limitations under the License.
 SELECT
   *
 FROM
-  ML.CONFUSION_MATRIX(MODEL `LTV_Classification.model_iteration_2`)
+  ML.CONFUSION_MATRIX(MODEL `caramel-howl-182418.LTV_Classification.model_iteration_2`)
