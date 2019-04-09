@@ -16,7 +16,7 @@ SELECT
 FROM
   ML.PREDICT(
     MODEL `caramel-howl-182418.CustomerSegmentation_Clustering_ModelComparison.model_5`,
-    TABLE `caramel-howl-182418.CustomerSegmentation_Clustering_ModelComparison.Dataset`
+    TABLE `caramel-howl-182418.CustomerSegmentation_Clustering.Dataset`
   )
 ORDER BY
   User_ID;
