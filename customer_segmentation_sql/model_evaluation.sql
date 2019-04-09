@@ -12,6 +12,7 @@ limitations under the License.
 */
 SELECT
   '5' AS Size,
-  a.Mean_Squared_Distance AS Mean_Squared_Distance
+  a.Mean_Squared_Distance AS Mean_Squared_Distance,
+  a.Davies_Bouldin_Index AS Davies_Bouldin_Index
 FROM
   ML.EVALUATE(MODEL `caramel-howl-182418.CustomerSegmentation_Clustering_ModelComparison.model_5`) AS a;
