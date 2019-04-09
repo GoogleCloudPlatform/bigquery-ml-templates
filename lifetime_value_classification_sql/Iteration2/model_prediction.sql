@@ -19,7 +19,7 @@ SELECT
   UniqueScreenViews,
   Loyalty_Program,
   Age,
-  Calculated,
+  Normalized_Loyalty_Program,
   Country_code,
   screenResolution,
   Class,
