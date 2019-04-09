@@ -17,4 +17,4 @@ limitations under the License.
 SELECT
   *
 FROM
-  ML.EVALUATE(MODEL ConversionPrediction_BinaryClassification.model)
+  ML.EVALUATE(MODEL `caramel-howl-182418.ConversionPrediction_BinaryClassification.model`)
