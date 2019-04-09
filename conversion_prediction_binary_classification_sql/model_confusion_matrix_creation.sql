@@ -16,4 +16,4 @@ limitations under the License.
 SELECT
   *
 FROM
-  ML.CONFUSION_MATRIX(MODEL `ConversionPrediction_BinaryClassification.model_1`)
+  ML.CONFUSION_MATRIX(MODEL `caramel-howl-182418.ConversionPrediction_BinaryClassification.model`)
